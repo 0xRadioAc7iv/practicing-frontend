@@ -5,11 +5,11 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-0.5 bg-gray-100">
       <Header />
       <Navbar />
-      <Main />
-      <Footer />
+      {/* <Main /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
