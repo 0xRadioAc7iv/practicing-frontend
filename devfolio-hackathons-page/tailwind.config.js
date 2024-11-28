@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         nunito: ["Nunito Sans", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
-    <div className="flex flex-col bg-[#F5F7F7] items-center py-12">
-      <div className="flex flex-row gap-24 justify-between">
-        <div className="flex flex-col">
-          <div className="text-5xl text-wrap">
+    <div className="flex flex-col bg-[#F5F7F7] items-center py-[90px] px-36">
+      <div className="flex flex-row gap-80 justify-between mb-4">
+        <div className="flex flex-col gap-16">
+          <div className="text-5xl font-nunito font-black text-[#20282d]">
             We love <span className="text-[#81a2ef]">software</span> and the{" "}
-            <span className="text-[#eeb27b]">people</span> who build it
+            <span className="text-[#eeb27b]">people</span> who build it.
           </div>
           <div className="flex gap-4">
             <img
@@ -45,46 +45,80 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="flex gap-8">
+        <div className="flex gap-6">
           <div className="flex flex-col gap-2">
-            <div className="mb-2">COMMUNITY</div>
-            <div>Organize a hackathon</div>
-            <div>Explore hackathons</div>
-            <div>Code of Conduct</div>
-            <div>Brand Assets</div>
-            <div>Documentation</div>
+            <div className="font-montserrat text-[#8e989c] font-bold text-sm tracking-[0.12em] mb-2">
+              COMMUNITY
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339] whitespace-nowrap">
+              Organize a hackathon
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Explore hackathons
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Code of Conduct
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Brand Assets
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Documentation
+            </div>
           </div>
           <div className="flex flex-col gap-2">
-            <div className="mb-3">COMPANY</div>
-            <div>About</div>
-            <div>Blog</div>
-            <div>Careers</div>
-            <div>Changelog</div>
-            <div>Privacy</div>
-            <div>Terms</div>
+            <div className="font-montserrat text-[#8e989c] font-bold text-sm tracking-[0.12em] mb-2">
+              COMPANY
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              About
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Blog
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Careers
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Changelog
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Privacy
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Terms
+            </div>
           </div>
           <div className="flex flex-col gap-2">
-            <div className="mb-3">SUPPORT</div>
-            <div>Help</div>
-            <div>Status</div>
-            <div>Contact us</div>
+            <div className="font-montserrat text-[#8e989c] font-bold text-sm tracking-[0.12em] mb-3">
+              SUPPORT
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Help
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339]">
+              Status
+            </div>
+            <div className="font-normal font-nunito text-lg text-[#273339] whitespace-nowrap">
+              Contact us
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex items-center">
-        <div>
-          <div>
-            <hr className="w-full" />
-          </div>
+      <div className="flex justify-between w-full items-center gap-8">
+        <div className="flex flex-col w-full align-bottom gap-2">
+          <hr className="w-full border-t-[1px] border-[#8e989c] mb-4" />
           <div>
             <img src="/devfolio.svg" width="122" height="34" />
           </div>
         </div>
         <div>
-          <img src="never-stop-building.svg" width="195" height="120" />
+          <img src="never-stop-building.svg" width="280" />
         </div>
       </div>
-      <div>© 2024, NSB Classic PTE LTD</div>
+      <div className="flex w-full justify-start mt-12">
+        <div className="font-nunito">© 2024, NSB Classic PTE LTD</div>
+      </div>
     </div>
   );
 };
