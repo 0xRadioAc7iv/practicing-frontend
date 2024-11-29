@@ -1,31 +1,35 @@
 import { FaChevronRight } from "react-icons/fa";
-import { CiSearch } from "react-icons/ci";
 
 const Search = () => {
   return (
-    <div className="flex gap-4">
-      <div className="flex gap-2 bg-white p-3 items-center rounded-xl">
-        <div className="flex items-center gap-2 bg-gray-100 px-2">
-          <CiSearch />
-          <input
-            type="text"
-            placeholder="Type to begin search, or use the global shortcut"
-            className="bg-gray-100 p-4"
-          ></input>
+    <div className="w-full flex justify-center items-center gap-4">
+      <div className="w-full flex items-center gap-4 bg-white p-4 rounded-2xl shadow-md">
+        <div className="w-full flex items-center gap-2 bg-[#f5f7f7] p-4 text-[#8e989c] font-nunito font-semibold text-lg border-[1px] border-[#d0d9da] rounded-lg hover:border-[#3770ff]  transition-colors ease-in duration-150">
+          <div>
+            <img
+              src="/search.svg"
+              width="24"
+              height="24"
+              className="opacity-25"
+            />
+          </div>
+          <div>Type to begin search, or use the global shortcut</div>
         </div>
-        <div className="flex items-center gap-1 bg-gray-100 p-1 rounded-md">
-          <div className="bg-[#e4eaeb] px-4 py-2 border-2 border-[#8e989c] rounded-md">
+        <div className="flex items-center gap-1 p-1 bg-[#f5f7f7]">
+          <div className="bg-[#e4eaeb] text-[#273339] text-xl font-spacemono px-4 py-2 font-bold border-[1px] border-[#8e989c] rounded-md">
             Ctrl
           </div>
-          <div className="text-gray-500">+</div>
-          <div className="bg-[#e4eaeb] px-4 py-2 border-2 border-[#8e989c] rounded-md">
+          <div className="text-[#b4bec0] font-nunito font-bold">+</div>
+          <div className="bg-[#e4eaeb] text-[#273339] text-xl font-spacemono px-4 py-2 font-bold border-[1px] border-[#8e989c] rounded-md">
             K
           </div>
         </div>
       </div>
-      <div className="flex bg-[#d2e0ff] items-center gap-2 p-4 rounded-lg border-2 border-[#b3ceff] hover:border-[#3770ff]">
-        <div className="text-[#3770ff]">Your hackathons</div>
-        <FaChevronRight className="text-[#3770ff]" />
+      <div className="flex items-center text-[#3770ff] gap-2 bg-[#d2e0ff] border-2 border-[#b3ceff] hover:border-[#8097f2] rounded-xl p-8">
+        <div className="font-nunito font-bold text-xl whitespace-nowrap">
+          Your hackathons
+        </div>
+        <FaChevronRight />
       </div>
     </div>
   );

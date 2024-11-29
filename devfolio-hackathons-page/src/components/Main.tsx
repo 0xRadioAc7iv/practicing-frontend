@@ -3,9 +3,9 @@ import Search from "./Search";
 
 const Main = () => {
   return (
-    <div className="flex flex-col justify-center p-6">
+    <div className="flex flex-col py-6 px-36">
       <Search />
-      <HackathonCard />
+      {/* <HackathonCard /> */}
     </div>
   );
 };

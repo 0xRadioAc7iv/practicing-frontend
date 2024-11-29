@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         nunito: ["Nunito Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        spacemono: ["Space Mono", "monospace"],
       },
     },
   },
