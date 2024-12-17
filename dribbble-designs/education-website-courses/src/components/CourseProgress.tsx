@@ -37,7 +37,7 @@ const CourseProgress = ({
 
   return (
     <div
-      className="flex flex-col justify-between gap-5 w-full rounded-2xl p-3 border border-black font-kodchasan"
+      className="flex flex-col justify-between gap-5 w-full rounded-3xl p-3 border border-black font-kodchasan"
       style={{ backgroundColor: bgColor }}
     >
       <div>
@@ -66,7 +66,7 @@ const CourseProgress = ({
             </div>
           </div>
           <div>
-            <div className="w-full bg-black bg-opacity-20 rounded-full h-2.5">
+            <div className="w-full bg-black bg-opacity-20 rounded-full h-2.5 mt-2">
               <div
                 className="bg-black h-2.5 rounded-full"
                 style={{ width: `${progressBarFill}%` }}
@@ -74,7 +74,7 @@ const CourseProgress = ({
             </div>
           </div>
         </div>
-        <div className="flex justify-between mt-4">
+        <div className="flex justify-between mt-6">
           <div className="flex items-center relative">
             <img
               src={profile}

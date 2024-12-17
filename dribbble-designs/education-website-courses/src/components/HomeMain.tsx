@@ -1,9 +1,11 @@
+import CourseAd from "./CourseAd";
 import CourseCategoryButton from "./CourseCategoryButton";
 import CourseProgress from "./CourseProgress";
+import NextLessons from "./NextLessons";
 
 const HomeMain = () => {
   return (
-    <div className="flex flex-col gap-4 px-7 pt-6">
+    <div className="flex flex-col gap-4 px-7 pt-6 pb-6">
       <div className="flex justify-between font-kodchasan">
         <div className="text-2xl font-bold">My Courses</div>
         <div className="flex items-center gap-2">
@@ -46,7 +48,14 @@ const HomeMain = () => {
           maxLessons={22}
         />
       </div>
-      <div></div>
+      <div className="flex gap-5">
+        <div className="flex-[2]">
+          <NextLessons />
+        </div>
+        <div className="flex-[1]">
+          <CourseAd />
+        </div>
+      </div>
     </div>
   );
 };
