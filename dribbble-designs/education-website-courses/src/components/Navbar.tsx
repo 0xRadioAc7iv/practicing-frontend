@@ -11,7 +11,7 @@ const Navbar = () => {
         <span className="text-xl text-[#151313] font-bold">ify</span>
       </div>
       <div className="flex gap-8 font-kodchasan items-center">
-        <div className="flex w-52 justify-between items-center border border-black pl-2 p-1 rounded-xl bg-white">
+        <div className="flex w-60 justify-between items-center border border-black pl-2 p-1 rounded-xl bg-white">
           <div className="text-xs text-gray-500 font-semibold">Search</div>
           <div className="text-white bg-[#ff5734] p-0.5 rounded-lg border border-black">
             <RiSearch2Line size={20} />

@@ -1,5 +1,12 @@
+import BasePage from "../components/BasePage";
+import CourseMain from "../components/CourseMain";
+
 const CoursePage = () => {
-  return <div>CoursePage</div>;
+  return (
+    <BasePage>
+      <CourseMain />
+    </BasePage>
+  );
 };
 
 export default CoursePage;
